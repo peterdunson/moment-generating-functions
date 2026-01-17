@@ -19,4 +19,3 @@ def mgf_binomial(t, n, p):
 
 def mgf_poisson(t, lam):
     return np.exp(lam * (np.exp(t) - 1))
-
